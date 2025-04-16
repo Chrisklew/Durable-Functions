@@ -10,6 +10,7 @@ This project demonstrates the fan-out/fan-in pattern using Azure Durable Functio
 - [.NET 6 SDK or later](https://dotnet.microsoft.com/download)
 - [Azure Functions Core Tools v4](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local)
 - [Azurite](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azurite) (for local Storage Emulator, optional)
+- [Visual Studio Code](https://code.visualstudio.com/) or Visual Studio (with Azure Functions extension)
 
 ## 🚀 Setup and Run
 
@@ -22,6 +23,7 @@ This project demonstrates the fan-out/fan-in pattern using Azure Durable Functio
 2. **Restore Dependencies**
    ```bash
    dotnet restore
+   dotnet build
    ```
 
 3. **Start Azurite (optional for local storage)**
